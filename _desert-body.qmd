@@ -1,0 +1,88 @@
+```{r}
+#| include: false
+source(file.path(Sys.getenv("QUARTO_PROJECT_DIR", here::here()), "R/helpers.R"))
+
+d = filter(deserts, desert == params$desert)
+cw = filter(crosswalk, desert == params$desert)
+n_changed = sum(cw$change_vs_2020 != "unchanged")
+
+# Show neighboring precincts too, so readers can see what sits just outside the line
+nearby = prec26 |>
+  st_filter(st_buffer(d, 0.01)) |>
+  left_join(select(cw, geoid = geoid26, status), by = "geoid") |>
+  mutate(status = replace_na(status, "outside"))
+nearby20 = st_filter(prec20, st_buffer(d, 0.01))
+```
+
+**2026 precincts in this desert:**
+
+```{r}
+precinct_list(cw)
+```
+
+Core precincts: `r sum(cw$status == "core")`. Partial precincts: `r sum(cw$status == "partial")`. Renumbered or redrawn since 2020: `r n_changed` of `r nrow(cw)`.
+
+```{r}
+#| column: page
+pal = colorFactor(c(col_core, col_partial, col_other), levels = c("core", "partial", "outside"))
+lbl = st_point_on_surface(nearby) |> filter(status != "outside")
+
+base_map() |>
+  addPolygons(
+    data = nearby, group = "2026 precincts",
+    fillColor = ~pal(status), fillOpacity = ~if_else(status == "outside", 0, 0.45),
+    color = "#ffffff", weight = 1.5, opacity = 1,
+    label = ~paste0("2026 precinct ", prec, " (", status, ")"),
+    options = pathOptions(pane = "polygons")
+  ) |>
+  addPolylines(
+    data = nearby20, group = "2020 precincts",
+    color = "#5133DD", weight = 1.5, dashArray = "4 4",
+    label = ~paste0("2020 precinct ", prec),
+    options = pathOptions(pane = "polygons")
+  ) |>
+  addPolylines(
+    data = d, group = "Desert boundary",
+    color = col_desert, weight = 3.5, opacity = 1,
+    options = pathOptions(pane = "polygons")
+  ) |>
+  addLabelOnlyMarkers(
+    data = lbl, group = "2026 precincts", label = ~prec,
+    labelOptions = labelOptions(noHide = TRUE, textOnly = TRUE, direction = "center", className = "precinct-label")
+  ) |>
+  addLegend(
+    position = "bottomright",
+    colors = c(col_core, col_partial, "transparent"), opacity = 0.6,
+    labels = c("Core (≥50% of adults in desert)", "Partial (10–49%)", "Other 2026 precinct"),
+    title = "2026 precincts"
+  ) |>
+  addLayersControl(
+    overlayGroups = c("Desert boundary", "2026 precincts", "2020 precincts"),
+    options = layersControlOptions(collapsed = FALSE)
+  ) |>
+  hideGroup("2020 precincts") |>
+  fit_to(d)
+```
+
+```{r}
+cw |>
+  transmute(
+    `2026 precinct` = precinct_2026,
+    Status = status,
+    `Change since 2020` = change_vs_2020,
+    `Overlaps 2020 precinct(s)` = precincts_2020,
+    `Share of precinct adults in desert` = pct_of_precinct_in_desert,
+    `Share of desert adults in precinct` = pct_of_desert_in_precinct
+  ) |>
+  reactable(
+    columns = list(
+      `Share of precinct adults in desert` = colDef(format = colFormat(percent = TRUE, digits = 0)),
+      `Share of desert adults in precinct` = colDef(format = colFormat(percent = TRUE, digits = 0))
+    ),
+    compact = TRUE, striped = TRUE, defaultPageSize = 50
+  )
+```
+
+::: {.caveat}
+Desert boundary = the 2020 precincts that originally defined this desert. Precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. Toggle "2020 precincts" on the map to compare with the old lines. See [Methods](../methods.qmd).
+:::

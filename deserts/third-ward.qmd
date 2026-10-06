@@ -1,0 +1,8 @@
+---
+title: "Third Ward"
+subtitle: "Harris County"
+params:
+  desert: "Third Ward"
+---
+
+{{< include ../_desert-body.qmd >}}

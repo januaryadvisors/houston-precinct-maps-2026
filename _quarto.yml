@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - data/downloads/*
+    - .nojekyll
+
+website:
+  title: "Voting Deserts: 2026 Precincts"
+  site-url: https://januaryadvisors.github.io/houston-precinct-maps-2026/
+  navbar:
+    left:
+      - href: index.qmd
+        text: All deserts
+      - href: methods.qmd
+        text: Methods
+  page-footer:
+    center: "January Advisors · Precinct boundaries: Texas Legislative Council, 2026 primary · Population: 2020 Census"
+
+format:
+  html:
+    theme: [cosmo, styles.scss]
+    toc: false
+    page-layout: full
+    embed-resources: false
+
+execute:
+  echo: false
+  warning: false
+  message: false

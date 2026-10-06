@@ -1,0 +1,73 @@
+---
+title: "Voting deserts and 2026 precincts"
+subtitle: "Harris, Fort Bend, and Montgomery counties"
+---
+
+```{r}
+#| include: false
+source(file.path(Sys.getenv("QUARTO_PROJECT_DIR", here::here()), "R/helpers.R"))
+
+desert_summary = crosswalk |>
+  summarise(
+    core = paste(precinct_2026[status == "core"], collapse = ", "),
+    partial = paste(precinct_2026[status == "partial"], collapse = ", "),
+    changed = sum(change_vs_2020 != "unchanged"),
+    n = n(),
+    .by = c(county, desert)
+  ) |>
+  mutate(
+    County = county_labels[county],
+    link = paste0("deserts/", slugify(desert), ".html")
+  ) |>
+  arrange(County, desert)
+
+deserts_map = left_join(deserts, select(desert_summary, desert, core, link), by = "desert")
+```
+
+Harris and Fort Bend counties redrew voting precincts for 2026. This site maps each January Advisors voting desert against the 2026 precinct lines and lists the precincts that now fall inside it. Click a desert on the map or in the table to see its precincts.
+
+The desert boundaries have not changed. Only the precinct numbers used to describe them have. A **core** precinct has at least half of its adults inside the desert. A **partial** precinct has 10% to 49%. Details are on the [Methods](methods.qmd) page.
+
+```{r}
+#| column: page
+base_map() |>
+  addPolylines(data = prec26, color = "#8a9aa6", weight = 0.5, opacity = 0.6, options = pathOptions(pane = "polygons")) |>
+  addPolygons(
+    data = deserts_map,
+    fillColor = col_core, fillOpacity = 0.45, color = col_desert, weight = 2,
+    label = ~display_name(desert),
+    popup = ~paste0("<b>", display_name(desert), "</b><br>2026 precincts: ", core, "<br><a href='", link, "'>Open map</a>"),
+    highlightOptions = highlightOptions(weight = 4, fillOpacity = 0.7),
+    options = pathOptions(pane = "polygons")
+  ) |>
+  fit_to(deserts)
+```
+
+## Precincts by desert
+
+```{r}
+desert_summary |>
+  transmute(
+    County,
+    Desert = display_name(desert),
+    `2026 precincts (core)` = core,
+    `Partial` = partial,
+    `Changed since 2020` = paste0(changed, " of ", n),
+    link
+  ) |>
+  reactable(
+    columns = list(
+      Desert = colDef(minWidth = 180, cell = \(value, index) tags$a(href = desert_summary$link[index], value)),
+      `2026 precincts (core)` = colDef(minWidth = 220),
+      link = colDef(show = FALSE)
+    ),
+    groupBy = "County", defaultExpanded = TRUE,
+    searchable = TRUE, compact = TRUE, striped = TRUE, defaultPageSize = 50
+  )
+```
+
+## Downloads
+
+- [Desert-to-2026-precinct list (CSV)](data/downloads/desert-precincts-2026.csv): one row per desert and precinct, with status and population shares
+- [Voting desert boundaries (GeoPackage)](data/downloads/voting-deserts.gpkg) · [GeoJSON](data/downloads/voting-deserts.geojson)
+- [2026 precinct boundaries, Harris, Fort Bend, and Montgomery (GeoPackage)](data/downloads/precincts-2026-harris-fortbend-montgomery.gpkg)

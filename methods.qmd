@@ -1,0 +1,41 @@
+---
+title: "Methods"
+---
+
+## Sources
+
+- **2026 precincts:** Texas Legislative Council, [Precincts26P](https://data.capitol.texas.gov/dataset/precincts) (2026 primary election precincts, posted July 15, 2026). Downloaded October 6, 2026.
+- **2020 precincts:** Texas Legislative Council, Precincts20G (2020 general election precincts).
+- **Population:** 2020 Decennial Census redistricting file (PL 94-171). We used the adult population (18 and over, table P4) by census block.
+
+## Desert boundaries
+
+Each voting desert is a fixed group of 2020 precincts. January Advisors defined the deserts using 2020 data. We kept those boundaries as they are. The comparison neighborhoods therefore cover the same ground as before. Only the precinct numbers that describe them change.
+
+## Assigning 2026 precincts to deserts
+
+We placed every populated 2020 census block inside a 2026 precinct and inside a desert. Then we compared each 2026 precinct with each desert:
+
+- **Core:** at least 50% of the precinct's adults live inside the desert.
+- **Partial:** 10% to 49% of the precinct's adults live inside the desert. These precincts straddle the desert line. Including them adds people from outside the desert, and leaving them out drops some people from inside it.
+- Precincts below 10% are not listed. Precincts with no adult residents in 2020 (parks, commercial strips, water) also are not listed, even if they sit inside a desert. The maps still show them.
+
+We weighted by adult population instead of land area. Area weights misclassify precincts that contain parks, industrial land, or water.
+
+## Change since 2020
+
+For each 2026 precinct, we compared its boundary with the 2020 precinct that has the same number:
+
+- **Unchanged:** the two boundaries overlap by at least 99%.
+- **Redrawn:** the two boundaries overlap by 50% to 98%. The precinct kept its number, but its lines moved.
+- **Renumbered:** the two boundaries overlap by less than 50%, or the number did not exist in 2020. Counties sometimes reuse an old number for a different area. In Fort Bend, 162 of 201 precincts in the 2026 file fall in this group.
+
+The table on each desert page lists the 2020 precincts that each 2026 precinct overlaps. Use that column to match old precinct numbers to new ones.
+
+Changes since 2020 include Harris County's December 2021 re-precincting as well as the 2025 changes in Harris and Fort Bend.
+
+## Limits
+
+- The TLC file shows precincts as of the March 2026 primary. If a county changed precincts again before the November 2026 general election, those changes are not shown here.
+- 68 precincts in the TLC file (66 in Harris, 2 in Fort Bend) do not appear on the Secretary of State's April 2026 precinct list. Each has 23 or fewer adults. Only one, Harris 0833 (18 adults), falls inside a desert (Humble).
+- Census 2020 block counts include noise added by the Census Bureau for privacy. Shares for very small precincts are less reliable.

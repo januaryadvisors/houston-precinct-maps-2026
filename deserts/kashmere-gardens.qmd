@@ -1,0 +1,8 @@
+---
+title: "Kashmere Gardens"
+subtitle: "Harris County"
+params:
+  desert: "Kashmere Gardens (Harris)"
+---
+
+{{< include ../_desert-body.qmd >}}
