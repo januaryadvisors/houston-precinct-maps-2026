@@ -5,7 +5,7 @@ title: "Methods"
 ## Sources
 
 - **2026 precincts:** Texas Legislative Council, [Precincts26P](https://data.capitol.texas.gov/dataset/precincts) (2026 primary election precincts, posted July 15, 2026). Downloaded October 6, 2026.
-- **2020 precincts:** Texas Legislative Council, Precincts20G (2020 general election precincts).
+- **2020 precincts:** 2020 Census voting districts, the layer January Advisors used to build the deserts and the layer the voting-desert dashboard maps. Texas Legislative Council Precincts20G (2020 general) is used only for the change comparison below.
 - **Population:** 2020 Decennial Census redistricting file (PL 94-171). We used the adult population (18 and over, table P4) by census block.
 
 ## Desert boundaries
@@ -24,7 +24,7 @@ We weighted by adult population instead of land area. Area weights misclassify p
 
 ## Change since 2020
 
-For each 2026 precinct, we compared its boundary with the 2020 precinct that has the same number:
+For each 2026 precinct, we compared its boundary with the 2020 precinct that has the same number. This comparison uses the Texas Legislative Council files for both years. The Census voting-district lines are simplified, so comparing them with TLC lines would flag small digitizing differences as boundary changes. Precinct numbers are the same in both 2020 files.
 
 - **Unchanged:** the two boundaries overlap by at least 99%.
 - **Redrawn:** the two boundaries overlap by 50% to 98%. The precinct kept its number, but its lines moved.

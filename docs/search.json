@@ -4,14 +4,14 @@
     "href": "methods.html",
     "title": "Methods",
     "section": "",
-    "text": "2026 precincts: Texas Legislative Council, Precincts26P (2026 primary election precincts, posted July 15, 2026). Downloaded October 6, 2026.\n2020 precincts: Texas Legislative Council, Precincts20G (2020 general election precincts).\nPopulation: 2020 Decennial Census redistricting file (PL 94-171). We used the adult population (18 and over, table P4) by census block."
+    "text": "2026 precincts: Texas Legislative Council, Precincts26P (2026 primary election precincts, posted July 15, 2026). Downloaded October 6, 2026.\n2020 precincts: 2020 Census voting districts, the layer January Advisors used to build the deserts and the layer the voting-desert dashboard maps. Texas Legislative Council Precincts20G (2020 general) is used only for the change comparison below.\nPopulation: 2020 Decennial Census redistricting file (PL 94-171). We used the adult population (18 and over, table P4) by census block."
   },
   {
     "objectID": "methods.html#sources",
     "href": "methods.html#sources",
     "title": "Methods",
     "section": "",
-    "text": "2026 precincts: Texas Legislative Council, Precincts26P (2026 primary election precincts, posted July 15, 2026). Downloaded October 6, 2026.\n2020 precincts: Texas Legislative Council, Precincts20G (2020 general election precincts).\nPopulation: 2020 Decennial Census redistricting file (PL 94-171). We used the adult population (18 and over, table P4) by census block."
+    "text": "2026 precincts: Texas Legislative Council, Precincts26P (2026 primary election precincts, posted July 15, 2026). Downloaded October 6, 2026.\n2020 precincts: 2020 Census voting districts, the layer January Advisors used to build the deserts and the layer the voting-desert dashboard maps. Texas Legislative Council Precincts20G (2020 general) is used only for the change comparison below.\nPopulation: 2020 Decennial Census redistricting file (PL 94-171). We used the adult population (18 and over, table P4) by census block."
   },
   {
     "objectID": "methods.html#desert-boundaries",
@@ -32,7 +32,7 @@
     "href": "methods.html#change-since-2020",
     "title": "Methods",
     "section": "Change since 2020",
-    "text": "Change since 2020\nFor each 2026 precinct, we compared its boundary with the 2020 precinct that has the same number:\n\nUnchanged: the two boundaries overlap by at least 99%.\nRedrawn: the two boundaries overlap by 50% to 98%. The precinct kept its number, but its lines moved.\nRenumbered: the two boundaries overlap by less than 50%, or the number did not exist in 2020. Counties sometimes reuse an old number for a different area. In Fort Bend, 162 of 201 precincts in the 2026 file fall in this group.\n\nThe table on each desert page lists the 2020 precincts that each 2026 precinct overlaps. Use that column to match old precinct numbers to new ones.\nChanges since 2020 include Harris County’s December 2021 re-precincting as well as the 2025 changes in Harris and Fort Bend."
+    "text": "Change since 2020\nFor each 2026 precinct, we compared its boundary with the 2020 precinct that has the same number. This comparison uses the Texas Legislative Council files for both years. The Census voting-district lines are simplified, so comparing them with TLC lines would flag small digitizing differences as boundary changes. Precinct numbers are the same in both 2020 files.\n\nUnchanged: the two boundaries overlap by at least 99%.\nRedrawn: the two boundaries overlap by 50% to 98%. The precinct kept its number, but its lines moved.\nRenumbered: the two boundaries overlap by less than 50%, or the number did not exist in 2020. Counties sometimes reuse an old number for a different area. In Fort Bend, 162 of 201 precincts in the 2026 file fall in this group.\n\nThe table on each desert page lists the 2020 precincts that each 2026 precinct overlaps. Use that column to match old precinct numbers to new ones.\nChanges since 2020 include Harris County’s December 2021 re-precincting as well as the 2025 changes in Harris and Fort Bend."
   },
   {
     "objectID": "methods.html#limits",
@@ -46,210 +46,210 @@
     "href": "deserts/baytown.html",
     "title": "Baytown",
     "section": "",
-    "text": "2026 precincts in this desert:\n\n\n\n0012, 0099, 0100, 0102, 0248, 0249, 0250, 0456, 0532, 0533, 0739, 0740, 0808, 0989, 1107, 1155, 1194, 1195\n\n\n\nCore precincts: 18. Partial precincts: 0. Renumbered or redrawn since 2020: 12 of 18.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 precincts that originally defined this desert. Precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. Toggle “2020 precincts” on the map to compare with the old lines. See Methods."
+    "text": "2026 precincts in this desert:\n\n\n\n0012, 0099, 0100, 0102, 0248, 0249, 0250, 0456, 0532, 0533, 0739, 0740, 0808, 0989, 1107, 1155, 1194, 1195\n\n\n\nCore precincts: 18. Partial precincts: 0. Renumbered or redrawn since 2020: 12 of 18.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 Census precincts (voting districts) that originally defined this desert: 0012, 0099, 0100, 0102, 0248, 0249, 0456, 0532, 0533, 0739, 0740. Turn on “2020 precincts used to build desert” on the map to see them. 2026 precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. See Methods."
   },
   {
     "objectID": "deserts/1960-cypress-creek-north.html",
     "href": "deserts/1960-cypress-creek-north.html",
     "title": "1960 / Cypress Creek North",
     "section": "",
-    "text": "2026 precincts in this desert:\n\n\n\n0550, 0997\n\n\n\nCore precincts: 2. Partial precincts: 0. Renumbered or redrawn since 2020: 2 of 2.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 precincts that originally defined this desert. Precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. Toggle “2020 precincts” on the map to compare with the old lines. See Methods."
+    "text": "2026 precincts in this desert:\n\n\n\n0550, 0997\n\n\n\nCore precincts: 2. Partial precincts: 0. Renumbered or redrawn since 2020: 2 of 2.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 Census precincts (voting districts) that originally defined this desert: 0550, 0997. Turn on “2020 precincts used to build desert” on the map to see them. 2026 precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. See Methods."
   },
   {
     "objectID": "deserts/alief-sharpstown-westwood.html",
     "href": "deserts/alief-sharpstown-westwood.html",
     "title": "Alief/Sharpstown/Westwood",
     "section": "",
-    "text": "2026 precincts in this desert:\n\n\n\n0311, 0359, 0425, 0427, 0429, 0507, 0565, 0943, 1000, 1002, 1188\n\n\n\nCore precincts: 11. Partial precincts: 0. Renumbered or redrawn since 2020: 6 of 11.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 precincts that originally defined this desert. Precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. Toggle “2020 precincts” on the map to compare with the old lines. See Methods."
+    "text": "2026 precincts in this desert:\n\n\n\n0311, 0359, 0425, 0427, 0429, 0507, 0565, 0943, 1000, 1002, 1188\n\n\n\nCore precincts: 11. Partial precincts: 0. Renumbered or redrawn since 2020: 6 of 11.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 Census precincts (voting districts) that originally defined this desert: 0311, 0359, 0425, 0427, 0429, 0507, 0565, 0943, 1000, 1002. Turn on “2020 precincts used to build desert” on the map to see them. 2026 precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. See Methods."
   },
   {
     "objectID": "deserts/pasadena.html",
     "href": "deserts/pasadena.html",
     "title": "Pasadena",
     "section": "",
-    "text": "2026 precincts in this desert:\n\n\n\n0170, 0188, 0190, 0191, 0242, 0267, 0277, 0348, 0394, 0527, 0535, 0695, 0696, 0708, 0770, 0777, 0786, 0793\n\n\n\nCore precincts: 18. Partial precincts: 0. Renumbered or redrawn since 2020: 1 of 18.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 precincts that originally defined this desert. Precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. Toggle “2020 precincts” on the map to compare with the old lines. See Methods."
+    "text": "2026 precincts in this desert:\n\n\n\n0170, 0188, 0190, 0191, 0242, 0267, 0277, 0348, 0394, 0527, 0535, 0695, 0696, 0708, 0770, 0777, 0786, 0793\n\n\n\nCore precincts: 18. Partial precincts: 0. Renumbered or redrawn since 2020: 1 of 18.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 Census precincts (voting districts) that originally defined this desert: 0170, 0188, 0190, 0191, 0242, 0267, 0277, 0348, 0394, 0527, 0535, 0695, 0696, 0708, 0770, 0777, 0786, 0793. Turn on “2020 precincts used to build desert” on the map to see them. 2026 precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. See Methods."
   },
   {
     "objectID": "deserts/greenspoint.html",
     "href": "deserts/greenspoint.html",
     "title": "Greenspoint",
     "section": "",
-    "text": "2026 precincts in this desert:\n\n\n\n0101, 0358, 0423, 0520, 0629, 0794, 0934, 1019, 1121, 1122\n · partial: 0958\n\n\n\nCore precincts: 10. Partial precincts: 1. Renumbered or redrawn since 2020: 9 of 11.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 precincts that originally defined this desert. Precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. Toggle “2020 precincts” on the map to compare with the old lines. See Methods."
+    "text": "2026 precincts in this desert:\n\n\n\n0101, 0358, 0423, 0520, 0629, 0794, 0934, 1019, 1121, 1122\n · partial: 0958\n\n\n\nCore precincts: 10. Partial precincts: 1. Renumbered or redrawn since 2020: 9 of 11.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 Census precincts (voting districts) that originally defined this desert: 0101, 0358, 0423, 0629, 0794, 0970. Turn on “2020 precincts used to build desert” on the map to see them. 2026 precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. See Methods."
   },
   {
     "objectID": "deserts/westchase.html",
     "href": "deserts/westchase.html",
     "title": "Westchase",
     "section": "",
-    "text": "2026 precincts in this desert:\n\n\n\n0559, 0625, 0727, 0807\n\n\n\nCore precincts: 4. Partial precincts: 0. Renumbered or redrawn since 2020: 2 of 4.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 precincts that originally defined this desert. Precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. Toggle “2020 precincts” on the map to compare with the old lines. See Methods."
+    "text": "2026 precincts in this desert:\n\n\n\n0559, 0625, 0727, 0807\n\n\n\nCore precincts: 4. Partial precincts: 0. Renumbered or redrawn since 2020: 2 of 4.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 Census precincts (voting districts) that originally defined this desert: 0559, 0727, 0807. Turn on “2020 precincts used to build desert” on the map to see them. 2026 precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. See Methods."
   },
   {
     "objectID": "deserts/third-ward.html",
     "href": "deserts/third-ward.html",
     "title": "Third Ward",
     "section": "",
-    "text": "2026 precincts in this desert:\n\n\n\n0025, 0085, 0247, 0389, 0390\n\n\n\nCore precincts: 5. Partial precincts: 0. Renumbered or redrawn since 2020: 0 of 5.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 precincts that originally defined this desert. Precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. Toggle “2020 precincts” on the map to compare with the old lines. See Methods."
+    "text": "2026 precincts in this desert:\n\n\n\n0025, 0085, 0247, 0389, 0390\n\n\n\nCore precincts: 5. Partial precincts: 0. Renumbered or redrawn since 2020: 0 of 5.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 Census precincts (voting districts) that originally defined this desert: 0025, 0085, 0247, 0389, 0390. Turn on “2020 precincts used to build desert” on the map to see them. 2026 precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. See Methods."
   },
   {
     "objectID": "deserts/channelview-sheldon.html",
     "href": "deserts/channelview-sheldon.html",
     "title": "Channelview/Sheldon",
     "section": "",
-    "text": "2026 precincts in this desert:\n\n\n\n0141, 0220, 0872, 0965, 0976\n\n\n\nCore precincts: 5. Partial precincts: 0. Renumbered or redrawn since 2020: 3 of 5.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 precincts that originally defined this desert. Precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. Toggle “2020 precincts” on the map to compare with the old lines. See Methods."
+    "text": "2026 precincts in this desert:\n\n\n\n0141, 0220, 0872, 0965, 0976\n\n\n\nCore precincts: 5. Partial precincts: 0. Renumbered or redrawn since 2020: 3 of 5.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 Census precincts (voting districts) that originally defined this desert: 0141, 0220, 0965, 0976. Turn on “2020 precincts used to build desert” on the map to see them. 2026 precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. See Methods."
   },
   {
     "objectID": "deserts/denver-harbor-port-houston.html",
     "href": "deserts/denver-harbor-port-houston.html",
     "title": "Denver Harbor / Port Houston",
     "section": "",
-    "text": "2026 precincts in this desert:\n\n\n\n0079, 0373, 0412, 0560\n\n\n\nCore precincts: 4. Partial precincts: 0. Renumbered or redrawn since 2020: 1 of 4.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 precincts that originally defined this desert. Precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. Toggle “2020 precincts” on the map to compare with the old lines. See Methods."
+    "text": "2026 precincts in this desert:\n\n\n\n0079, 0373, 0412, 0560\n\n\n\nCore precincts: 4. Partial precincts: 0. Renumbered or redrawn since 2020: 1 of 4.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 Census precincts (voting districts) that originally defined this desert: 0079, 0373, 0412, 0560. Turn on “2020 precincts used to build desert” on the map to see them. 2026 precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. See Methods."
   },
   {
     "objectID": "deserts/northside-northline.html",
     "href": "deserts/northside-northline.html",
     "title": "Northside / Northline",
     "section": "",
-    "text": "2026 precincts in this desert:\n\n\n\n0184, 0261, 0325, 0341, 0579, 0677, 0787, 0795, 0910, 0914\n\n\n\nCore precincts: 10. Partial precincts: 0. Renumbered or redrawn since 2020: 1 of 10.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 precincts that originally defined this desert. Precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. Toggle “2020 precincts” on the map to compare with the old lines. See Methods."
+    "text": "2026 precincts in this desert:\n\n\n\n0184, 0261, 0325, 0341, 0579, 0677, 0787, 0795, 0910, 0914\n\n\n\nCore precincts: 10. Partial precincts: 0. Renumbered or redrawn since 2020: 1 of 10.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 Census precincts (voting districts) that originally defined this desert: 0184, 0261, 0325, 0341, 0579, 0677, 0787, 0795, 0910, 0914. Turn on “2020 precincts used to build desert” on the map to see them. 2026 precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. See Methods."
   },
   {
     "objectID": "deserts/golfcrest.html",
     "href": "deserts/golfcrest.html",
     "title": "Golfcrest",
     "section": "",
-    "text": "2026 precincts in this desert:\n\n\n\n0067, 0203, 0231, 0766\n\n\n\nCore precincts: 4. Partial precincts: 0. Renumbered or redrawn since 2020: 1 of 4.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 precincts that originally defined this desert. Precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. Toggle “2020 precincts” on the map to compare with the old lines. See Methods."
+    "text": "2026 precincts in this desert:\n\n\n\n0067, 0203, 0231, 0766\n\n\n\nCore precincts: 4. Partial precincts: 0. Renumbered or redrawn since 2020: 1 of 4.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 Census precincts (voting districts) that originally defined this desert: 0067, 0203, 0231, 0766. Turn on “2020 precincts used to build desert” on the map to see them. 2026 precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. See Methods."
   },
   {
     "objectID": "deserts/aldine-northwest.html",
     "href": "deserts/aldine-northwest.html",
     "title": "Aldine Northwest",
     "section": "",
-    "text": "2026 precincts in this desert:\n\n\n\n0283, 0399, 0783, 0954, 0956, 0967\n\n\n\nCore precincts: 6. Partial precincts: 0. Renumbered or redrawn since 2020: 4 of 6.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 precincts that originally defined this desert. Precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. Toggle “2020 precincts” on the map to compare with the old lines. See Methods."
+    "text": "2026 precincts in this desert:\n\n\n\n0283, 0399, 0783, 0954, 0956, 0967\n\n\n\nCore precincts: 6. Partial precincts: 0. Renumbered or redrawn since 2020: 4 of 6.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 Census precincts (voting districts) that originally defined this desert: 0283, 0399, 0783. Turn on “2020 precincts used to build desert” on the map to see them. 2026 precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. See Methods."
   },
   {
     "objectID": "deserts/spring-southwest.html",
     "href": "deserts/spring-southwest.html",
     "title": "Spring Southwest",
     "section": "",
-    "text": "2026 precincts in this desert:\n\n\n\n0757, 0894, 1060, 1061, 1114\n · partial: 0520\n\n\n\nCore precincts: 5. Partial precincts: 1. Renumbered or redrawn since 2020: 5 of 6.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 precincts that originally defined this desert. Precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. Toggle “2020 precincts” on the map to compare with the old lines. See Methods."
+    "text": "2026 precincts in this desert:\n\n\n\n0757, 0894, 1060, 1061, 1114\n · partial: 0520\n\n\n\nCore precincts: 5. Partial precincts: 1. Renumbered or redrawn since 2020: 5 of 6.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 Census precincts (voting districts) that originally defined this desert: 0520, 0757, 0894. Turn on “2020 precincts used to build desert” on the map to see them. 2026 precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. See Methods."
   },
   {
     "objectID": "deserts/gulfton.html",
     "href": "deserts/gulfton.html",
     "title": "Gulfton",
     "section": "",
-    "text": "2026 precincts in this desert:\n\n\n\n0335, 0345, 0431, 0570\n\n\n\nCore precincts: 4. Partial precincts: 0. Renumbered or redrawn since 2020: 1 of 4.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 precincts that originally defined this desert. Precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. Toggle “2020 precincts” on the map to compare with the old lines. See Methods."
+    "text": "2026 precincts in this desert:\n\n\n\n0335, 0345, 0431, 0570\n\n\n\nCore precincts: 4. Partial precincts: 0. Renumbered or redrawn since 2020: 1 of 4.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 Census precincts (voting districts) that originally defined this desert: 0335, 0345, 0431, 0570. Turn on “2020 precincts used to build desert” on the map to see them. 2026 precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. See Methods."
   },
   {
     "objectID": "deserts/pecan-park-park-place.html",
     "href": "deserts/pecan-park-park-place.html",
     "title": "Pecan Park/Park Place",
     "section": "",
-    "text": "2026 precincts in this desert:\n\n\n\n0023, 0094, 0211, 0226, 0526\n\n\n\nCore precincts: 5. Partial precincts: 0. Renumbered or redrawn since 2020: 0 of 5.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 precincts that originally defined this desert. Precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. Toggle “2020 precincts” on the map to compare with the old lines. See Methods."
+    "text": "2026 precincts in this desert:\n\n\n\n0023, 0094, 0211, 0226, 0526\n\n\n\nCore precincts: 5. Partial precincts: 0. Renumbered or redrawn since 2020: 0 of 5.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 Census precincts (voting districts) that originally defined this desert: 0023, 0094, 0211, 0226, 0526. Turn on “2020 precincts used to build desert” on the map to see them. 2026 precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. See Methods."
   },
   {
     "objectID": "deserts/mid-west.html",
     "href": "deserts/mid-west.html",
     "title": "Mid-West",
     "section": "",
-    "text": "2026 precincts in this desert:\n\n\n\n0272, 0312, 0432, 0981\n\n\n\nCore precincts: 4. Partial precincts: 0. Renumbered or redrawn since 2020: 2 of 4.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 precincts that originally defined this desert. Precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. Toggle “2020 precincts” on the map to compare with the old lines. See Methods."
+    "text": "2026 precincts in this desert:\n\n\n\n0272, 0312, 0432, 0981\n\n\n\nCore precincts: 4. Partial precincts: 0. Renumbered or redrawn since 2020: 2 of 4.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 Census precincts (voting districts) that originally defined this desert: 0272, 0312, 0432. Turn on “2020 precincts used to build desert” on the map to see them. 2026 precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. See Methods."
   },
   {
     "objectID": "deserts/eastex-jensen.html",
     "href": "deserts/eastex-jensen.html",
     "title": "Eastex - Jensen",
     "section": "",
-    "text": "2026 precincts in this desert:\n\n\n\n0107, 0152, 0171, 0212, 0254, 0571, 0714, 0779, 0942, 1070\n · partial: 0584, 0656\n\n\n\nCore precincts: 10. Partial precincts: 2. Renumbered or redrawn since 2020: 9 of 12.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 precincts that originally defined this desert. Precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. Toggle “2020 precincts” on the map to compare with the old lines. See Methods."
+    "text": "2026 precincts in this desert:\n\n\n\n0107, 0152, 0171, 0212, 0254, 0571, 0714, 0779, 0942, 1070\n · partial: 0584, 0656\n\n\n\nCore precincts: 10. Partial precincts: 2. Renumbered or redrawn since 2020: 9 of 12.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 Census precincts (voting districts) that originally defined this desert: 0107, 0152, 0171, 0212, 0254, 0571, 0584, 0714, 0779. Turn on “2020 precincts used to build desert” on the map to see them. 2026 precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. See Methods."
   },
   {
     "objectID": "deserts/aldine.html",
     "href": "deserts/aldine.html",
     "title": "Aldine",
     "section": "",
-    "text": "2026 precincts in this desert:\n\n\n\n0241, 0397, 0409, 0411, 0595, 0664, 0733, 0743, 0767, 0780\n\n\n\nCore precincts: 10. Partial precincts: 0. Renumbered or redrawn since 2020: 2 of 10.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 precincts that originally defined this desert. Precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. Toggle “2020 precincts” on the map to compare with the old lines. See Methods."
+    "text": "2026 precincts in this desert:\n\n\n\n0241, 0397, 0409, 0411, 0595, 0664, 0733, 0743, 0767, 0780\n\n\n\nCore precincts: 10. Partial precincts: 0. Renumbered or redrawn since 2020: 2 of 10.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 Census precincts (voting districts) that originally defined this desert: 0241, 0397, 0409, 0411, 0595, 0664, 0733, 0743, 0767, 0780. Turn on “2020 precincts used to build desert” on the map to see them. 2026 precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. See Methods."
   },
   {
     "objectID": "deserts/fifth-ward.html",
     "href": "deserts/fifth-ward.html",
     "title": "Fifth Ward",
     "section": "",
-    "text": "2026 precincts in this desert:\n\n\n\n0047, 0202, 0544, 0854\n\n\n\nCore precincts: 4. Partial precincts: 0. Renumbered or redrawn since 2020: 0 of 4.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 precincts that originally defined this desert. Precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. Toggle “2020 precincts” on the map to compare with the old lines. See Methods."
+    "text": "2026 precincts in this desert:\n\n\n\n0047, 0202, 0544, 0854\n\n\n\nCore precincts: 4. Partial precincts: 0. Renumbered or redrawn since 2020: 0 of 4.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 Census precincts (voting districts) that originally defined this desert: 0047, 0202, 0544, 0854. Turn on “2020 precincts used to build desert” on the map to see them. 2026 precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. See Methods."
   },
   {
     "objectID": "deserts/rosenberg.html",
     "href": "deserts/rosenberg.html",
     "title": "Rosenberg",
     "section": "",
-    "text": "2026 precincts in this desert:\n\n\n\n1012, 3048\n\n\n\nCore precincts: 2. Partial precincts: 0. Renumbered or redrawn since 2020: 1 of 2.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 precincts that originally defined this desert. Precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. Toggle “2020 precincts” on the map to compare with the old lines. See Methods."
+    "text": "2026 precincts in this desert:\n\n\n\n1012, 3048\n\n\n\nCore precincts: 2. Partial precincts: 0. Renumbered or redrawn since 2020: 1 of 2.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 Census precincts (voting districts) that originally defined this desert: 1012, 1048. Turn on “2020 precincts used to build desert” on the map to see them. 2026 precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. See Methods."
   },
   {
     "objectID": "deserts/jacinto-city-northshore.html",
     "href": "deserts/jacinto-city-northshore.html",
     "title": "Jacinto City/Northshore",
     "section": "",
-    "text": "2026 precincts in this desert:\n\n\n\n0162, 0163, 0229, 0821\n\n\n\nCore precincts: 4. Partial precincts: 0. Renumbered or redrawn since 2020: 1 of 4.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 precincts that originally defined this desert. Precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. Toggle “2020 precincts” on the map to compare with the old lines. See Methods."
+    "text": "2026 precincts in this desert:\n\n\n\n0162, 0163, 0229, 0821\n\n\n\nCore precincts: 4. Partial precincts: 0. Renumbered or redrawn since 2020: 1 of 4.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 Census precincts (voting districts) that originally defined this desert: 0162, 0163, 0229, 0821. Turn on “2020 precincts used to build desert” on the map to see them. 2026 precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. See Methods."
   },
   {
     "objectID": "deserts/porter-new-caney.html",
     "href": "deserts/porter-new-caney.html",
     "title": "Porter/New Caney",
     "section": "",
-    "text": "2026 precincts in this desert:\n\n\n\n0052, 0054\n\n\n\nCore precincts: 2. Partial precincts: 0. Renumbered or redrawn since 2020: 1 of 2.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 precincts that originally defined this desert. Precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. Toggle “2020 precincts” on the map to compare with the old lines. See Methods."
+    "text": "2026 precincts in this desert:\n\n\n\n0052, 0054\n\n\n\nCore precincts: 2. Partial precincts: 0. Renumbered or redrawn since 2020: 1 of 2.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 Census precincts (voting districts) that originally defined this desert: 0052, 0054. Turn on “2020 precincts used to build desert” on the map to see them. 2026 precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. See Methods."
   },
   {
     "objectID": "deserts/hobby.html",
     "href": "deserts/hobby.html",
     "title": "Hobby",
     "section": "",
-    "text": "2026 precincts in this desert:\n\n\n\n0257, 0418\n\n\n\nCore precincts: 2. Partial precincts: 0. Renumbered or redrawn since 2020: 1 of 2.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 precincts that originally defined this desert. Precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. Toggle “2020 precincts” on the map to compare with the old lines. See Methods."
+    "text": "2026 precincts in this desert:\n\n\n\n0257, 0418\n\n\n\nCore precincts: 2. Partial precincts: 0. Renumbered or redrawn since 2020: 1 of 2.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 Census precincts (voting districts) that originally defined this desert: 0257, 0418. Turn on “2020 precincts used to build desert” on the map to see them. 2026 precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. See Methods."
   },
   {
     "objectID": "deserts/humble.html",
     "href": "deserts/humble.html",
     "title": "Humble",
     "section": "",
-    "text": "2026 precincts in this desert:\n\n\n\n0108, 0833, 0911\n\n\n\nCore precincts: 3. Partial precincts: 0. Renumbered or redrawn since 2020: 1 of 3.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 precincts that originally defined this desert. Precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. Toggle “2020 precincts” on the map to compare with the old lines. See Methods."
+    "text": "2026 precincts in this desert:\n\n\n\n0108, 0833, 0911\n\n\n\nCore precincts: 3. Partial precincts: 0. Renumbered or redrawn since 2020: 1 of 3.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 Census precincts (voting districts) that originally defined this desert: 0108, 0911. Turn on “2020 precincts used to build desert” on the map to see them. 2026 precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. See Methods."
   },
   {
     "objectID": "deserts/kashmere-gardens.html",
     "href": "deserts/kashmere-gardens.html",
     "title": "Kashmere Gardens",
     "section": "",
-    "text": "2026 precincts in this desert:\n\n\n\n0455, 0562\n\n\n\nCore precincts: 2. Partial precincts: 0. Renumbered or redrawn since 2020: 0 of 2.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 precincts that originally defined this desert. Precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. Toggle “2020 precincts” on the map to compare with the old lines. See Methods."
+    "text": "2026 precincts in this desert:\n\n\n\n0455, 0562\n\n\n\nCore precincts: 2. Partial precincts: 0. Renumbered or redrawn since 2020: 0 of 2.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 Census precincts (voting districts) that originally defined this desert: 0455, 0562. Turn on “2020 precincts used to build desert” on the map to see them. 2026 precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. See Methods."
   },
   {
     "objectID": "deserts/langwood.html",
     "href": "deserts/langwood.html",
     "title": "Langwood",
     "section": "",
-    "text": "2026 precincts in this desert:\n\n\n\n0117, 0299, 0446, 0809, 0966, 1089\n\n\n\nCore precincts: 6. Partial precincts: 0. Renumbered or redrawn since 2020: 3 of 6.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 precincts that originally defined this desert. Precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. Toggle “2020 precincts” on the map to compare with the old lines. See Methods."
+    "text": "2026 precincts in this desert:\n\n\n\n0117, 0299, 0446, 0809, 0966, 1089\n\n\n\nCore precincts: 6. Partial precincts: 0. Renumbered or redrawn since 2020: 3 of 6.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 Census precincts (voting districts) that originally defined this desert: 0117, 0299, 0446, 0809, 0966. Turn on “2020 precincts used to build desert” on the map to see them. 2026 precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. See Methods."
   },
   {
     "objectID": "deserts/south-houston-meadowbrook-edgebrook.html",
     "href": "deserts/south-houston-meadowbrook-edgebrook.html",
     "title": "South Houston/Meadowbrook/Edgebrook",
     "section": "",
-    "text": "2026 precincts in this desert:\n\n\n\n0029, 0093, 0280, 0328, 0329\n\n\n\nCore precincts: 5. Partial precincts: 0. Renumbered or redrawn since 2020: 0 of 5.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 precincts that originally defined this desert. Precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. Toggle “2020 precincts” on the map to compare with the old lines. See Methods."
+    "text": "2026 precincts in this desert:\n\n\n\n0029, 0093, 0280, 0328, 0329\n\n\n\nCore precincts: 5. Partial precincts: 0. Renumbered or redrawn since 2020: 0 of 5.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 Census precincts (voting districts) that originally defined this desert: 0029, 0093, 0280, 0328, 0329. Turn on “2020 precincts used to build desert” on the map to see them. 2026 precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. See Methods."
   },
   {
     "objectID": "deserts/iah.html",
     "href": "deserts/iah.html",
     "title": "IAH",
     "section": "",
-    "text": "2026 precincts in this desert:\n\n\n\n0106, 0334, 0342, 0410, 0705, 0738, 0834, 0936, 1003, 1105, 1106\n\n\n\nCore precincts: 11. Partial precincts: 0. Renumbered or redrawn since 2020: 10 of 11.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 precincts that originally defined this desert. Precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. Toggle “2020 precincts” on the map to compare with the old lines. See Methods."
+    "text": "2026 precincts in this desert:\n\n\n\n0106, 0334, 0342, 0410, 0705, 0738, 0834, 0936, 1003, 1105, 1106\n\n\n\nCore precincts: 11. Partial precincts: 0. Renumbered or redrawn since 2020: 10 of 11.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 Census precincts (voting districts) that originally defined this desert: 0106, 0334, 0342, 0410, 0705, 0738, 0834, 0936. Turn on “2020 precincts used to build desert” on the map to see them. 2026 precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. See Methods."
   },
   {
     "objectID": "deserts/clear-lake-webster.html",
     "href": "deserts/clear-lake-webster.html",
     "title": "Clear Lake/Webster",
     "section": "",
-    "text": "2026 precincts in this desert:\n\n\n\n0393, 0416, 0715, 0748, 0941, 1032, 1033, 1099, 1100\n\n\n\nCore precincts: 9. Partial precincts: 0. Renumbered or redrawn since 2020: 7 of 9.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 precincts that originally defined this desert. Precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. Toggle “2020 precincts” on the map to compare with the old lines. See Methods."
+    "text": "2026 precincts in this desert:\n\n\n\n0393, 0416, 0715, 0748, 0941, 1032, 1033, 1099, 1100\n\n\n\nCore precincts: 9. Partial precincts: 0. Renumbered or redrawn since 2020: 7 of 9.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 Census precincts (voting districts) that originally defined this desert: 0393, 0416, 0715, 0748, 0941. Turn on “2020 precincts used to build desert” on the map to see them. 2026 precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. See Methods."
   },
   {
     "objectID": "deserts/conroe.html",
     "href": "deserts/conroe.html",
     "title": "Conroe",
     "section": "",
-    "text": "2026 precincts in this desert:\n\n\n\n0051, 0060\n\n\n\nCore precincts: 2. Partial precincts: 0. Renumbered or redrawn since 2020: 0 of 2.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 precincts that originally defined this desert. Precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. Toggle “2020 precincts” on the map to compare with the old lines. See Methods."
+    "text": "2026 precincts in this desert:\n\n\n\n0051, 0060\n\n\n\nCore precincts: 2. Partial precincts: 0. Renumbered or redrawn since 2020: 0 of 2.\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesert boundary = the 2020 Census precincts (voting districts) that originally defined this desert: 0051, 0060. Turn on “2020 precincts used to build desert” on the map to see them. 2026 precincts are from the Texas Legislative Council file for the March 2026 primary. Shares use 2020 Census adults (18+) by block. See Methods."
   },
   {
     "objectID": "index.html",

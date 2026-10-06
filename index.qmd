@@ -21,6 +21,9 @@ desert_summary = crosswalk |>
   ) |>
   arrange(County, desert)
 
+# Precinct lines are faint context at county zoom; thin them to keep the page light
+prec26_overview = rmapshaper::ms_simplify(prec26, keep = 0.2, keep_shapes = TRUE)
+
 deserts_map = left_join(deserts, select(desert_summary, desert, core, link), by = "desert")
 ```
 
@@ -31,7 +34,7 @@ The desert boundaries have not changed. Only the precinct numbers used to descri
 ```{r}
 #| column: page
 base_map() |>
-  addPolylines(data = prec26, color = "#8a9aa6", weight = 0.5, opacity = 0.6, options = pathOptions(pane = "polygons")) |>
+  addPolylines(data = prec26_overview, color = "#8a9aa6", weight = 0.5, opacity = 0.6, options = pathOptions(pane = "polygons")) |>
   addPolygons(
     data = deserts_map,
     fillColor = col_core, fillOpacity = 0.45, color = col_desert, weight = 2,
